@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59f7aa1562dee4660a6167cfb6982e64
+guid: 3c7c5ad736b2b4e2fafa7f738b859566
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,17 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: blinn1
-    second: {fileID: 2100000, guid: 3e04e80d74d094960bafba92940ab589, type: 2}
+    second: {fileID: 2100000, guid: b0c3d917fd41f47ee8585a0e8f681900, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: blinn2
-    second: {fileID: 2100000, guid: 0228c80f2798d4f60a5e62d7fba29222, type: 2}
+    second: {fileID: 2100000, guid: 694cfc15be9ea416db5c62a9b0d445cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: f3383cd9618c740e59b68686c1725b8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: a0d45b56a792a4ce1841bbc9da334e92, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: blinn5
-    second: {fileID: 2100000, guid: 712e2b984e2f74637aa1cecc9da4b64d, type: 2}
+    second: {fileID: 2100000, guid: 4ad688216924b42659726ba81eb8e8f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 1d0acef8c56ae4d5d934cba408dc0f35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -50,7 +65,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.1
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -103,7 +118,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.1
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
