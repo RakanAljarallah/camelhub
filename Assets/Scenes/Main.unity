@@ -395,7 +395,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61547920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1557,9 +1557,9 @@ Canvas:
   m_GameObject: {fileID: 174655185}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 2090270606}
-  m_PlaneDistance: 5
+  m_PlaneDistance: 0.55
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 0}
+  mytipWindow: {fileID: 61547925}
   message: most precious book
 --- !u!4 &376349918 stripped
 Transform:
@@ -5512,7 +5512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 0}
+  mytipWindow: {fileID: 61547925}
   message: enjoy on of Tuwaiq statue
 --- !u!1001 &659066313
 PrefabInstance:
@@ -7961,7 +7961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 0}
+  mytipWindow: {fileID: 61547925}
   message: drink arabic coffee and enjoy
 --- !u!1 &957889832
 GameObject:
@@ -9884,7 +9884,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh211214
+  m_Name: pb_Mesh254462
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42988,7 +42988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bb4042ceef94b3992f55b4d21063f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 0}
+  mytipWindow: {fileID: 61547925}
   message: King Abdulaziz Al Saud, the founder of the Kingdom of Saudi Arabia. He
     was a devout Muslim and a strong advocate for Islamic values
 --- !u!1001 &1472850598
@@ -44789,7 +44789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684758407}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 137.1, y: 0.04, z: 53.99}
+  m_LocalPosition: {x: 139.1, y: 0.04, z: 52.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
