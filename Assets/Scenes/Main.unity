@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 61547922}
   - component: {fileID: 61547924}
   - component: {fileID: 61547923}
-  - component: {fileID: 61547921}
+  - component: {fileID: 61547925}
   m_Layer: 0
   m_Name: infoWindo
   m_TagString: Untagged
@@ -388,20 +388,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &61547921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61547920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f28d562af9454cd697ac08e184a7ebc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skipButton: {fileID: 1682111486}
-  messageText: {fileID: 1949252626}
 --- !u!224 &61547922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -462,6 +448,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61547920}
   m_CullTransparentMesh: 1
+--- !u!114 &61547925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61547920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f28d562af9454cd697ac08e184a7ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skipButton: {fileID: 1682111486}
+  messageText: {fileID: 1949252626}
 --- !u!1 &62605337
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: most precious book
 --- !u!4 &376349918 stripped
 Transform:
@@ -5512,7 +5512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: enjoy on of Tuwaiq statue
 --- !u!1001 &659066313
 PrefabInstance:
@@ -6562,7 +6562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bb4042ceef94b3992f55b4d21063f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: 'King Abdulaziz Al Saud, the founder of the Kingdom of Saudi Arabia. He
     was a devout Muslim and a strong advocate for Islamic values. He established
     a legal system based on Islamic law and encouraged the spread of Islamic education
@@ -7961,7 +7961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b3b0bdf540c4e41a09e9a9665fc1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: drink arabic coffee and enjoy
 --- !u!1 &957889832
 GameObject:
@@ -42988,7 +42988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bb4042ceef94b3992f55b4d21063f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: King Abdulaziz Al Saud, the founder of the Kingdom of Saudi Arabia. He
     was a devout Muslim and a strong advocate for Islamic values
 --- !u!1001 &1472850598
@@ -43866,7 +43866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17bb4042ceef94b3992f55b4d21063f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mytipWindow: {fileID: 61547921}
+  mytipWindow: {fileID: 0}
   message: 'King Abdulaziz Al Saud, the founder of the Kingdom of Saudi Arabia. He
     was a devout Muslim and a strong advocate for Islamic values. He established
     a legal system based on Islamic law and encouraged the spread of Islamic education
@@ -48627,7 +48627,7 @@ PrefabInstance:
     - target: {fileID: 4266097681759658746, guid: 37a1b739e13ce46ee9f06eaf74c4d914, type: 3}
       propertyPath: mytipWindow
       value: 
-      objectReference: {fileID: 61547921}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a1b739e13ce46ee9f06eaf74c4d914, type: 3}
 --- !u!4 &2136329095 stripped
