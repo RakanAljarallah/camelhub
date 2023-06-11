@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59f7aa1562dee4660a6167cfb6982e64
+guid: 4c4ba53b986f14abc93c92bd49c426c3
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,18 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: 3e04e80d74d094960bafba92940ab589, type: 2}
+      name: lambert1
+    second: {fileID: 2100000, guid: b646034439ba14535882e70299247620, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: blinn2
-    second: {fileID: 2100000, guid: 0228c80f2798d4f60a5e62d7fba29222, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn5
-    second: {fileID: 2100000, guid: 712e2b984e2f74637aa1cecc9da4b64d, type: 2}
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 6f5b78141c18f4865a2cf191ea2c2e8f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -50,7 +45,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.1
+    globalScale: 0.2
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -103,7 +98,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.1
+    globalScale: 0.2
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
