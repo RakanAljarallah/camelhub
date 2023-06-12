@@ -23,7 +23,7 @@ public class guideInfo : MonoBehaviour
         mytipWindow.messageText.text = message;
     }
 
-    private void skipClicked()
+    public void skipClicked()
     {
         mytipWindow.gameObject.SetActive(false);
     }
